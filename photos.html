@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: linear-gradient(to right, rgb(34, 12, 54), rgb(42, 19, 97));
+        }
+        
+        h1 {
+            color: aliceblue;
+            font-family: 'tw cen mt';
+            text-align: center;
+            padding: 30px 1px;
+            ;
+        }
+        
+        .row {
+            padding: 10px;
+        }
+        
+        img {
+            transition: all .5s;
+        }
+        
+        img:hover {
+            transform: scale(1.05);
+            cursor: pointer;
+            filter: brightness(1.2);
+        }
+        
+        @media (max-width: 570px) {
+            img:hover {
+                filter: none;
+                transform: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to the photo blog of Bobur Mavlonov</h1>
+    <div class="row">
+        <div class="col-12 col-sm-6 col-lg-4">
+            <a href="photos/Gallery/akademiya.jpg" target="_blank" rel="noopener noreferrer"><img src="photos/Gallery/akademiya.jpg" class="img-thumbnail"></a>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+            <a href="photos/Gallery/jizzax.jpg" target="_blank" rel="noopener noreferrer"><img src="photos/Gallery/jizzax.jpg" class="img-thumbnail"></a>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+            <a href="photos/Gallery/litsey.jpg" target="_blank" rel="noopener noreferrer"><img src="photos/Gallery/litsey.jpg" class="img-thumbnail"></a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-sm-6 col-lg-4">
+            <a href="photos/Gallery/oltin-vodiy.jpg" target="_blank" rel="noopener noreferrer"><img src="photos/Gallery/oltin-vodiy.jpg" class="img-thumbnail"></a>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+            <a href="photos/Gallery/thinking.jpg" target="_blank" rel="noopener noreferrer"><img src="photos/Gallery/thinking.jpg" class="img-thumbnail"></a>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+            <a href="photos/Gallery/ustoz.jpg" target="_blank" rel="noopener noreferrer"><img src="photos/Gallery/ustoz.jpg" class="img-thumbnail"></a>
+        </div>
+    </div>
+</body>
+
+</html>
